@@ -1,0 +1,250 @@
+[
+  {
+    "file": "estimates.csv",
+    "where": {
+      "family": "main",
+      "metric": "neither_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.008801042252153637,
+      "se": 0.0011135986293596468,
+      "ci_low": 0.00661842904537562,
+      "ci_high": 0.010983655458931653
+    }
+  },
+  {
+    "file": "estimates.csv",
+    "where": {
+      "family": "tools",
+      "metric": "AI_minus_computer_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.0030277020693701044,
+      "se": 0.0010585481102224085,
+      "ci_low": 0.0009529858974313054,
+      "ci_high": 0.0051024182413089035
+    }
+  },
+  {
+    "file": "estimates.csv",
+    "where": {
+      "family": "tools",
+      "metric": "AI_minus_internet_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.0027797696786122125,
+      "se": 0.0009980443546291173,
+      "ci_low": 0.0008236386885656748,
+      "ci_high": 0.00473590066865875
+    }
+  },
+  {
+    "file": "estimates.csv",
+    "where": {
+      "family": "decomposition",
+      "metric": "within_contribution",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": -0.0014272953879416773,
+      "se": 0.0005909340778533578,
+      "ci_low": -0.002585504897771615,
+      "ci_high": -0.00026908587811173964
+    }
+  },
+  {
+    "file": "estimates.csv",
+    "where": {
+      "family": "decomposition",
+      "metric": "between_contribution",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.001485124328043024,
+      "se": 0.0004545457105019523,
+      "ci_low": 0.0005942311061320521,
+      "ci_high": 0.0023760175499539958
+    }
+  },
+  {
+    "file": "sensitivities.csv",
+    "where": {
+      "family": "missingness_bounds",
+      "metric": "RD_lower_bound",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": -0.13143567575520546,
+      "se": 0.002121452083640794,
+      "ci_low": -0.13559364543406877,
+      "ci_high": -0.12727770607634215
+    }
+  },
+  {
+    "file": "sensitivities.csv",
+    "where": {
+      "family": "missingness_bounds",
+      "metric": "RD_upper_bound",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.2194225910831235,
+      "se": 0.002232320779947281,
+      "ci_low": 0.21504732275248659,
+      "ci_high": 0.22379785941376043
+    }
+  },
+  {
+    "file": "sensitivities.csv",
+    "where": {
+      "family": "covariate_adjusted",
+      "metric": "LPM_adjusted_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.008348766168913214,
+      "se": 0.0011344784755642685,
+      "ci_low": 0.006125229215571406,
+      "ci_high": 0.010572303122255022
+    }
+  },
+  {
+    "file": "MAR_selection_sensitivity.csv",
+    "where": {
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.008775755025729314,
+      "se": 0.0011792120230736981,
+      "ci_low": 0.006464541930368314,
+      "ci_high": 0.011086968121090314
+    }
+  },
+  {
+    "file": "joint_components.csv",
+    "where": {
+      "metric": "joint_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.008801042252153637,
+      "se": 0.0011135986293596468,
+      "ci_low": 0.00661842904537562,
+      "ci_high": 0.010983655458931653
+    }
+  },
+  {
+    "file": "joint_components.csv",
+    "where": {
+      "metric": "alignment_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.007225461327983698,
+      "se": 0.0009629716516244306,
+      "ci_low": 0.005338071572666815,
+      "ci_high": 0.009112851083300582
+    }
+  },
+  {
+    "file": "joint_components.csv",
+    "where": {
+      "metric": "margin_reference_RD",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.0015755809241699372,
+      "se": 0.00022890477655085554,
+      "ci_low": 0.001126935806241084,
+      "ci_high": 0.0020242260420987902
+    }
+  },
+  {
+    "file": "MNAR_grid.csv",
+    "where": {
+      "delta_q1": "0.0",
+      "delta_q4": "0.0",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.008510107231076086,
+      "se": 0.001052775275203651,
+      "ci_low": 0.006446705607862743,
+      "ci_high": 0.01057350885428943,
+      "delta_q4": 0.0
+    }
+  },
+  {
+    "file": "MNAR_tipping.csv",
+    "where": {
+      "threshold": "point_zero"
+    },
+    "values": {
+      "estimate": 2.6020852139652106e-18,
+      "se": 0.00123096263521978,
+      "ci_low": -0.002412642431345216,
+      "ci_high": 0.0024126424313452213,
+      "delta_q4": 1.301026471101594,
+      "outcome_odds_multiplier_q4": 3.6730650283375437
+    }
+  },
+  {
+    "file": "SES_estimates.csv",
+    "where": {
+      "family": "HISEI_tools",
+      "metric": "proxy_AI_minus_computer",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.0021334067465079887,
+      "se": 0.0011148194439926323,
+      "ci_low": -5.159921298253855e-05,
+      "ci_high": 0.0043184127059985155
+    }
+  },
+  {
+    "file": "SES_estimates.csv",
+    "where": {
+      "family": "HISEI_tools",
+      "metric": "proxy_AI_minus_internet",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.0007776817073775006,
+      "se": 0.001043157279002552,
+      "ci_low": -0.0012668689896783024,
+      "ci_high": 0.0028222324044333033
+    }
+  },
+  {
+    "file": "SES_estimates.csv",
+    "where": {
+      "family": "HISCED_tools",
+      "metric": "proxy_AI_minus_computer",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.0005314455149899636,
+      "se": 0.0009048561090579556,
+      "ci_low": -0.0012420398699546768,
+      "ci_high": 0.002304930899934604
+    }
+  },
+  {
+    "file": "SES_estimates.csv",
+    "where": {
+      "family": "HISCED_tools",
+      "metric": "proxy_AI_minus_internet",
+      "system": "EQUAL_SYSTEM"
+    },
+    "values": {
+      "estimate": 0.00032633244228215744,
+      "se": 0.0008493758384980876,
+      "ci_low": -0.0013384136105126037,
+      "ci_high": 0.0019910784950769186
+    }
+  }
+]

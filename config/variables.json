@@ -1,0 +1,825 @@
+{
+  "CNT": {
+    "label": "Country code 3-character",
+    "type": "CHAR",
+    "values": {
+      "ALB": "Albania",
+      "ARE": "United Arab Emirates",
+      "ARG": "Argentina",
+      "ARM": "Armenia",
+      "AUS": "Australia",
+      "AUT": "Austria",
+      "AZE": "Azerbaijan",
+      "BEL": "Belgium",
+      "BGR": "Bulgaria",
+      "BRA": "Brazil",
+      "BRN": "Brunei Darussalam",
+      "CAN": "Canada",
+      "CHE": "Switzerland",
+      "CHL": "Chile",
+      "COL": "Colombia",
+      "CRI": "Costa Rica",
+      "CZE": "Czechia",
+      "DEU": "Germany",
+      "DNK": "Denmark",
+      "DOM": "Dominican Republic",
+      "ECU": "Ecuador",
+      "ESP": "Spain",
+      "EST": "Estonia",
+      "FIN": "Finland",
+      "FRA": "France",
+      "GBR": "United Kingdom",
+      "GEO": "Georgia",
+      "GRC": "Greece",
+      "GTM": "Guatemala",
+      "HKG": "Hong Kong (China)",
+      "HRV": "Croatia",
+      "HUN": "Hungary",
+      "IDN": "Indonesia",
+      "IRL": "Ireland",
+      "ISL": "Iceland",
+      "ISR": "Israel",
+      "ITA": "Italy",
+      "JOR": "Jordan",
+      "JPN": "Japan",
+      "KAZ": "Kazakhstan",
+      "KEN": "Kenya",
+      "KGZ": "Kyrgyzstan",
+      "KHM": "Cambodia",
+      "KOR": "Korea",
+      "KSV": "Kosovo",
+      "LBN": "Lebanon",
+      "LTU": "Lithuania",
+      "LUX": "Luxembourg",
+      "LVA": "Latvia",
+      "MAC": "Macao (China)",
+      "MAR": "Morocco",
+      "MDA": "Moldova",
+      "MEX": "Mexico",
+      "MKD": "North Macedonia",
+      "MLT": "Malta",
+      "MNE": "Montenegro",
+      "MNG": "Mongolia",
+      "MUS": "Mauritius",
+      "MYS": "Malaysia",
+      "NLD": "Netherlands",
+      "NOR": "Norway",
+      "NZL": "New Zealand",
+      "PER": "Peru",
+      "PHL": "Philippines",
+      "POL": "Poland",
+      "PRT": "Portugal",
+      "PRY": "Paraguay",
+      "PSE": "Palestinian Authority",
+      "QAT": "Qatar",
+      "QCI": "B-S-J-Z (China)",
+      "QCY": "Cyprus",
+      "QKI": "Kurdistan Region (Iraq)",
+      "QTJ": "Dushanbe (Tajikistan)",
+      "QUA": "Ukrainian regions (17 of 27)",
+      "ROU": "Romania",
+      "RWA": "Rwanda",
+      "SAU": "Saudi Arabia",
+      "SGP": "Singapore",
+      "SLV": "El Salvador",
+      "SRB": "Serbia",
+      "SVK": "Slovak Republic",
+      "SVN": "Slovenia",
+      "SWE": "Sweden",
+      "TAP": "Chinese Taipei",
+      "THA": "Thailand",
+      "TUR": "Türkiye",
+      "URY": "Uruguay",
+      "USA": "United States",
+      "UZB": "Uzbekistan",
+      "VNM": "Viet Nam",
+      "ZMB": "Zambia"
+    }
+  },
+  "CNTSTUID": {
+    "label": "Intl. Student ID",
+    "type": "CHAR",
+    "values": {}
+  },
+  "CNTSCHID": {
+    "label": "Intl. School ID",
+    "type": "CHAR",
+    "values": {
+      "9999997": "not administered/not applicable"
+    }
+  },
+  "ESCS": {
+    "label": "Economic, Social and Cultural Status Index",
+    "type": "NUM",
+    "values": {
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "AGE": {
+    "label": "Students' age",
+    "type": "NUM",
+    "values": {
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "GRADE": {
+    "label": "Grade compared to modal grade in country",
+    "type": "NUM",
+    "values": {
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "IMMIG": {
+    "label": "Student immigration status",
+    "type": "NUM",
+    "values": {
+      "1": "Native students (at least one parent born in country of test)",
+      "2": "Second-generation students (student born in country of test but parent(s) born in another country)",
+      "3": "First-generation students (student and parent(s) born in another country",
+      "5": "valid skip (filter rule)",
+      "6": "system missing",
+      "7": "not administered/not applicable",
+      "8": "invalid",
+      "9": "no response"
+    }
+  },
+  "ST004D01T": {
+    "label": "Students' gender from sampling data (Female/Male)",
+    "type": "NUM",
+    "values": {
+      "1": "Female",
+      "2": "Male",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "W_FSTUWT": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT WEIGHT",
+    "type": "NUM",
+    "values": {}
+  },
+  "Option_ICTQ": {
+    "label": "ICT Questionnaire Option",
+    "type": "NUM",
+    "values": {
+      "0": "No",
+      "1": "Yes"
+    }
+  },
+  "IC170Q10DA": {
+    "label": "This school year, how often did you use the following <digital resources> at school? - <Artificial Intelligence (AI)> tools or software (e.g. <ChatGPT>, <MidJourney>, <Stable Diffusion>)",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a month",
+      "3": "About once or twice a week",
+      "4": "Every day or almost every day",
+      "5": "Several times a day",
+      "6": "This resource is not available to me at school",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "IC171Q10DA": {
+    "label": "This school year, how often did you use the following <digital resources> outside of school (e.g., at home or where you usually access <digital resources>)? - <Artificial Intelligence (AI)> tools or software (e.g. <ChatGPT>, <MidJourney>, <Stable Diffusion",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a month",
+      "3": "About once or twice a week",
+      "4": "Every day or almost every day",
+      "5": "Several times a day",
+      "6": "This resource is not available to me outside school",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "IC170Q01JA": {
+    "label": "This school year, how often did you use the following <digital resources> at school? - Desktop or laptop computer",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a month",
+      "3": "About once or twice a week",
+      "4": "Every day or almost every day",
+      "5": "Several times a day",
+      "6": "This resource is not available to me at school",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "IC171Q01JA": {
+    "label": "This school year, how often did you use the following <digital resources> outside of school (e.g., at home or where you usually access <digital resources>)? - Desktop or laptop computer",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a month",
+      "3": "About once or twice a week",
+      "4": "Every day or almost every day",
+      "5": "Several times a day",
+      "6": "This resource is not available to me outside school",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "IC170Q04JA": {
+    "label": "This school year, how often did you use the following <digital resources> at school? - Internet access (except on smartphones)",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a month",
+      "3": "About once or twice a week",
+      "4": "Every day or almost every day",
+      "5": "Several times a day",
+      "6": "This resource is not available to me at school",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "IC171Q04JA": {
+    "label": "This school year, how often did you use the following <digital resources> outside of school (e.g., at home or where you usually access <digital resources>)? - Internet access (except on smartphones)",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a month",
+      "3": "About once or twice a week",
+      "4": "Every day or almost every day",
+      "5": "Several times a day",
+      "6": "This resource is not available to me outside school",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "ST436Q16DA": {
+    "label": "This school year, how often did you do the following tasks using <digital resources> in your school lessons? - Assess the quality of information generated by Artificial Intelligence chatbots (e.g. <ChatGPT>, <Google Bard>)",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "Sometimes",
+      "3": "Often",
+      "4": "Very often",
+      "5": "valid skip (filter rule)",
+      "6": "system missing",
+      "7": "not administered/not applicable",
+      "8": "invalid",
+      "9": "no response"
+    }
+  },
+  "ST438Q01DA": {
+    "label": "How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To summarize a text I had to read",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a year",
+      "3": "About once or twice a month",
+      "4": "About once or twice a week",
+      "5": "Every day or almost every day",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "ST438Q02DA": {
+    "label": "How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To conduct preliminary research on a new topic",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a year",
+      "3": "About once or twice a month",
+      "4": "About once or twice a week",
+      "5": "Every day or almost every day",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "ST438Q03DA": {
+    "label": "How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To draft texts for writing assignments",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a year",
+      "3": "About once or twice a month",
+      "4": "About once or twice a week",
+      "5": "Every day or almost every day",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "ST438Q04DA": {
+    "label": "How often do you use Artificial Intelligence chatbots (e.g. <ChatGPT>) for your school work to do the following activities? - To help me learn",
+    "type": "NUM",
+    "values": {
+      "1": "Never or almost never",
+      "2": "About once or twice a year",
+      "3": "About once or twice a month",
+      "4": "About once or twice a week",
+      "5": "Every day or almost every day",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "HISEI": {
+    "label": "Highest parental occupational status (ISEI)",
+    "type": "NUM",
+    "values": {
+      "995": "valid skip (filter rule)",
+      "996": "system missing",
+      "997": "not administered/not applicable",
+      "998": "invalid",
+      "999": "no response"
+    }
+  },
+  "HISCED": {
+    "label": "Highest educational level of parent(s)/guardian(s)",
+    "type": "NUM",
+    "values": {
+      "1": "parent does not have any of these qualifications",
+      "2": "ISCED Level 2 (Lower secondary education)",
+      "3": "ISCED Level 3.3 (Upper secondary education with no direct access to tertiary education)",
+      "4": "ISCED Level 3.4 (Upper secondary education of education with direct access to tertiary education)",
+      "5": "ISCED Level 4 (Post-secondary non-tertiary education)",
+      "6": "ISCED Level 5 (Short-cycle tertiary education)",
+      "7": "ISCED Level 6 (Bachelor’s or equivalent)",
+      "8": "ISCED Level 7 (Master's or equivalent)",
+      "9": "ISCED Level 8 (Doctoral or equivalent)",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "PAREDINT": {
+    "label": "Highest education of parents in years",
+    "type": "NUM",
+    "values": {
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "ST255Q01JA": {
+    "label": "How many books are there in your <home>?",
+    "type": "NUM",
+    "values": {
+      "1": "There are no books",
+      "2": "1-10 books",
+      "3": "11-25 books",
+      "4": "26-100 books",
+      "5": "101-200 books",
+      "6": "201-500 books",
+      "7": "More than 500 books",
+      "95": "valid skip (filter rule)",
+      "96": "system missing",
+      "97": "not administered/not applicable",
+      "98": "invalid",
+      "99": "no response"
+    }
+  },
+  "W_FSTURWT1": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 1",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT2": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 2",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT3": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 3",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT4": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 4",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT5": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 5",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT6": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 6",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT7": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 7",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT8": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 8",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT9": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 9",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT10": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 10",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT11": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 11",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT12": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 12",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT13": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 13",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT14": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 14",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT15": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 15",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT16": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 16",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT17": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 17",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT18": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 18",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT19": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 19",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT20": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 20",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT21": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 21",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT22": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 22",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT23": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 23",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT24": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 24",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT25": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 25",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT26": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 26",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT27": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 27",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT28": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 28",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT29": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 29",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT30": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 30",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT31": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 31",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT32": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 32",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT33": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 33",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT34": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 34",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT35": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 35",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT36": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 36",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT37": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 37",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT38": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 38",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT39": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 39",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT40": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 40",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT41": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 41",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT42": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 42",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT43": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 43",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT44": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 44",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT45": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 45",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT46": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 46",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT47": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 47",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT48": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 48",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT49": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 49",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT50": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 50",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT51": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 51",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT52": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 52",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT53": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 53",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT54": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 54",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT55": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 55",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT56": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 56",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT57": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 57",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT58": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 58",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT59": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 59",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT60": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 60",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT61": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 61",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT62": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 62",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT63": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 63",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT64": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 64",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT65": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 65",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT66": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 66",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT67": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 67",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT68": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 68",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT69": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 69",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT70": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 70",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT71": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 71",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT72": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 72",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT73": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 73",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT74": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 74",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT75": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 75",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT76": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 76",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT77": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 77",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT78": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 78",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT79": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 79",
+    "type": "NUM",
+    "values": {}
+  },
+  "W_FSTURWT80": {
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 80",
+    "type": "NUM",
+    "values": {}
+  }
+}

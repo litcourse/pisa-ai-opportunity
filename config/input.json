@@ -1,0 +1,10 @@
+{
+  "archive_url": "https://webfs.oecd.org/pisa2022/2025/CY09_MS_STU_PUF.zip",
+  "database_url": "https://www.oecd.org/en/data/datasets/pisa-2025-database.html",
+  "archive_sha256": "ef5a76cc20215c09308a541cb3c6ee66583d068ede8535c0b735288e0a71f985",
+  "archive_bytes": 992910196,
+  "sav_bytes": 2168666883,
+  "sav_crc32": 2363572180,
+  "codebook_url": "https://webfs.oecd.org/pisa2022/2025/PISA2025_Codebook.xlsx",
+  "variable_dictionary": "Selected fields from the official STU codebook; source labels are preserved."
+}
